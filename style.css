@@ -11,3 +11,17 @@ footer {
 #inputs {
   text-align: center;
 }
+
+#search-button {
+  background-color: #FFFFFF;
+  border: solid 2px #074bba;
+  border-radius: 5%;
+  color: #074bba;
+  height: 20px;
+  transition-duration: 0.2s;
+}
+
+#search-button:hover {
+  background-color: #074bba;
+  color: #FFFFFF;
+}
