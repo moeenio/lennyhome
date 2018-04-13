@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Made with Thimble</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1 id="face">( ͡° ͜ʖ ͡°)</h1>
+    <form method="get" action="http://www.google.com/search">
+      <div id="inputs">
+      <input type="text"   name="q" size="31"
+             maxlength="255" value="" />
+      <input type="submit" value="Google Search" />
+      </div>
+    </form>
+
+    <footer>
+      
+    <p>Made with ♡ by Locness.</p>
+    
+    </footer>
+    <script>
+      var lennyFaces = ["( ͡° ͜ʖ ͡°)", "¯\_(ツ)_/¯", "̿̿ ̿̿ ̿̿ ̿'̿'\̵͇̿̿\з= ( ▀ ͜͞ʖ▀) =ε/̵͇̿̿/’̿’̿ ̿ ̿̿ ̿̿ ̿̿", "( ͡°( ͡° ͜ʖ( ͡° ͜ʖ ͡°)ʖ ͡°) ͡°)", "ʕ•ᴥ•ʔ", "┬┴┬┴┤ ͜ʖ ͡°) ├┬┴┬┴", "( ͡°╭͜ʖ╮͡° )", "(ﾉ◕ヮ◕)ﾉ*:･ﾟ✧", "[̲̅$̲̅(̲̅ ͡° ͜ʖ ͡°̲̅)̲̅$̲̅]"];
+      var number =  Math.floor((Math.random() * lennyFaces.length) + 0);
+      var face = document.getElementById("face");
+      face.textContent = lennyFaces[number]
+    </script>
+  </body>
+</html>
