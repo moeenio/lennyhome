@@ -1,10 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Gugi');
+
+
 h1 {
+  font-family: sans-serif;
   font-size: 100px;
   margin-top: 5%;
   text-align: center;
 }
 
 footer {
+  font-family: "gugi", cursive;
   text-align: center;
 }
 
@@ -20,7 +25,6 @@ footer {
   height: 20px;
   transition-duration: 0.2s;
 }
-
 #search-button:hover {
   background-color: #074bba;
   color: #FFFFFF;
