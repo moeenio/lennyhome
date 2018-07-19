@@ -29,3 +29,9 @@ footer {
   background-color: #074bba;
   color: #FFFFFF;
 }
+h3 {
+  font-family: sans-serif;
+  font-size: 100px;
+  margin-top: 5%;
+  text-align: center;
+}
