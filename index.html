@@ -3,29 +3,24 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>LennyHome</title>
+    <title>Welcome</title>
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <h1 id="face">( ͡° ͜ʖ ͡°)</h1>
-    <form method="get" action="http://www.google.com/search">
+    <h1>HH:MM</h1>
+    <h6>DD, month YYYY</h6>
+    <form method="get" action="https://www.duckduckgo.com/?q=">
       <div id="inputs">
       <input type="text"   name="q" size="31"
              maxlength="255" value="" />
-      <input type="submit" value="Google Search" id="search-button"/>
+      <input type="submit" value="DuckDuckGo Search" id="search-button"/>
       </div>
     </form>
 
     <footer>
       
-    <p>Made with ♡ by Locness.</p>
+    <p>Open Beta 1.0</p>
     
     </footer>
-    <script>
-      var lennyFaces = ["( ͡° ͜ʖ ͡°)", "¯\_(ツ)_/¯", "̿̿ ̿̿ ̿̿ ̿'̿'\̵͇̿̿\з= ( ▀ ͜͞ʖ▀) =ε/̵͇̿̿/’̿’̿ ̿ ̿̿ ̿̿ ̿̿", "( ͡°( ͡° ͜ʖ( ͡° ͜ʖ ͡°)ʖ ͡°) ͡°)", "ʕ•ᴥ•ʔ", "┬┴┬┴┤ ͜ʖ ͡°) ├┬┴┬┴", "( ͡°╭͜ʖ╮͡° )", "(ﾉ◕ヮ◕)ﾉ*:･ﾟ✧", "[̲̅$̲̅(̲̅ ͡° ͜ʖ ͡°̲̅)̲̅$̲̅]"];
-      var number =  Math.floor((Math.random() * lennyFaces.length) + 0);
-      var face = document.getElementById("face");
-      face.textContent = lennyFaces[number]
-    </script>
   </body>
 </html>
