@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Gugi');
 
 
-h1 {
+#face {
   font-family: sans-serif;
-  font-size: 100px;
+  font-size: 15vw;
   margin-top: 5%;
   text-align: center;
 }
@@ -28,4 +28,10 @@ footer {
 #search-button:hover {
   background-color: #074bba;
   color: #FFFFFF;
+}
+
+@media only screen and (min-width: 739px) {
+  #face {
+    font-size: 111.44999694824219px;
+  }
 }
